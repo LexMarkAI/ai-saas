@@ -1,0 +1,26 @@
+nano main.py
+~/projects/ai-saas
+~/projects/ai-saas
+~/projects/ai-saas
+main.py
+main.py
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "WSL backend is running"}
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "WSL backend is running"}
+Enter
+Enter
+CTRL + X
+source .venv/bin/activate
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
